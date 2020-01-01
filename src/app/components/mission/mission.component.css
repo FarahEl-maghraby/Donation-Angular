@@ -1,0 +1,23 @@
+.top{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.card{
+    border:none
+}
+
+.card-body:hover i ,h3 ,h1{
+color:#ff8624
+}
+
+i , .card-body:hover h3 {
+color:rgb(71, 171, 211) 
+}
+
+
+.card:hover{
+    top:-5px;
+    box-shadow: 5px 5px 5px 5px rgb(238, 242, 243);
+    
+}

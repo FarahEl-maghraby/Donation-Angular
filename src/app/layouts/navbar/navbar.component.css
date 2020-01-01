@@ -1,0 +1,94 @@
+nav{
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+    margin-bottom: 10%;
+    
+  }
+  
+  .dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+    border: none;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+    box-shadow: 5px 5px 5px rgb(247, 223, 223);
+    border: none;
+  }
+  
+
+  
+  .dropdown-item:hover{
+  background-color: transparent;
+  color: white;
+  }
+  
+  .speech-bubble {
+      position: relative;
+      background: #ff8624;
+      margin-top: 20px;
+      
+  }
+  
+  .speech-bubble:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 20%;
+      width: 0;
+      height: 0;
+      border: 20px solid transparent;
+      border-bottom-color: #ff8624;
+      border-top: 0;
+      margin-left: -20px;
+      margin-top: -20px;
+  }
+  
+  
+  
+    .hr1{
+        margin-top: 0%;
+        border-top: 3px solid #ff8624;
+    }
+  
+    hr{
+      margin-top: 0%;
+      border-top: 3px solid transparent;
+      
+  }
+  
+  .par a {
+   
+    text-decoration: none;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+    padding: 12px 10px;
+  }
+  
+  /* ::after e3ne lcontent elee gaee bad kda 5lee ba characterstics de*/
+  /*::after creates a pseudo-element that is the last child of the selected element.
+   It is often used to add cosmetic content to an element with the content property. 
+  It is inline by default.*/
+  .par a::after {
+    content: "";
+    background: #ff8624;
+    border-top: 3px solid #ff8624;
+    position: absolute;
+    bottom: 0;
+    transition: .50s all;
+    left: 0%;
+    right: 100%;
+  }
+  
+  .par a:hover   {
+    left: 0;
+    right: 100%;
+  }
+  
+  .par a:hover::after {
+    left: 0;
+    right: 0;
+  }

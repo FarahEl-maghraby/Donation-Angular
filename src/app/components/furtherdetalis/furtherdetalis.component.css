@@ -1,0 +1,45 @@
+.top{
+    margin-top:10% ;
+}
+
+h2{
+    color: #ff8624
+}
+
+
+.v{
+    
+    position: relative;
+    width: 80%;
+    height: 100%;
+   
+}
+
+.d{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    margin-top: 50%;
+}
+
+.img1{
+    border: 10px solid rgb(142, 187, 238);
+    border-radius: 5px;
+}
+
+.img2{
+    border: 10px solid rgb(247, 233, 250);
+    border-radius: 5px;
+}
+
+.btn{
+ 
+    color: white;
+    background: linear-gradient(to right, #ff9a3c 0%, #fdb065 51%, #ff9a3c 100%);
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 5px 5px lightgray;
+}

@@ -1,0 +1,42 @@
+.footer{
+  margin-top: 20%;
+  background-color: #fffdfd;
+  height: 550px;
+
+
+}
+
+i,span{
+  color: rgb(119, 135, 209);
+}
+
+ul{
+  list-style-type: none;
+}
+
+li:hover,a:hover{
+list-style-type: circle;
+text-decoration: none;
+color: #ff8624;
+}
+
+p,a{
+color:rgb(129, 129, 129)
+}
+
+p:hover{
+  color: #ff8624; 
+}
+
+.btnStart{
+  background: linear-gradient(to right, #ff9a3c 0%, #fdb065 51%, #ff9a3c 100%);
+}
+
+.btnDonate{
+  background-color: white;
+  color: #fc7611
+}
+
+.btn:hover{
+  box-shadow: 5px 5px 5px 5px lightgray;
+}

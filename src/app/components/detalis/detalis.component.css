@@ -1,0 +1,49 @@
+.top{
+    margin-top: 10%;
+}
+
+h5{
+  color:#ff8624
+}
+
+.img3{
+    width: 370px;
+    height: 500px;
+      position: relative; 
+
+}
+
+.d ,.gg {
+    width: 370px;
+    height: 500px; 
+  position: absolute;
+  top: 0;
+  left: 10;
+ 
+  
+}
+.btn{
+ 
+    color: #fc7611;
+    background-color: rgb(250, 241, 250);
+}
+
+.img2:hover{
+transform: scale(1.2);
+
+}
+
+h2,p{
+    color: white;
+}
+
+h2:hover{
+    color: rgb(101, 128, 187);
+
+}
+
+.d{
+
+  background-color: #fd7611;
+  opacity: 0.5;
+}

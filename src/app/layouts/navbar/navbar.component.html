@@ -1,0 +1,68 @@
+<nav class=" container-fluid navbar navbar-expand-lg navbar-light body">
+    <img src="../../../assets/logo.png" style="max-width: 75px;" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mr-5" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto par ">
+          <li>
+          <a class="nav-item nav-link active " href="#">HOME<span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+              
+          <a class="nav-link  active " href="#" id="navbarDropdown" role="button" data-toggle="dropdown " aria-haspopup="true" aria-expanded="false">
+            CAMPIGNS
+          </a>
+          <div class="dropdown-menu speech-bubble" aria-labelledby="navbarDropdown" >
+            <a class="dropdown-item" *ngFor='let data of data' routerLink='campign/{{data.id}}'>{{data.t}}</a>
+        
+           
+          </div>
+        </li>
+  
+        <li>
+          <a class="nav-item nav-link active " href="#">ABOUT </a>
+        </li>
+  
+          <li class="nav-item dropdown ">
+              <a class="nav-link  active " href="#" id="navbarDropdown"   aria-expanded="false">
+                EVENTS
+              </a>
+              <div class="dropdown-menu speech-bubble" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">EVENTS</a>
+                <a class="dropdown-item" href="#">EVENTS SINGLE</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link  active " href="#" id="navbarDropdown" role="button" data-toggle="dropdown " aria-haspopup="true" aria-expanded="false">
+                PAGES
+              </a>
+              <div class="dropdown-menu speech-bubble" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">TEAM</a>
+                <a class="dropdown-item" href="#">PORTOFLIO</a>
+                <a class="dropdown-item" href="#">COOMING SOON</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link  active " href="#" id="navbarDropdown" role="button" data-toggle="dropdown " aria-haspopup="true" aria-expanded="false">
+                BLOGS
+              </a>
+              <div class="dropdown-menu speech-bubble" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">BLOG</a>
+                <a class="dropdown-item" href="#">BLOG LIST</a>
+                <a class="dropdown-item" href="#">BLOG SINGLE</a>
+              </div>
+            </li>
+            <li>
+                <a class="nav-item nav-link active" href="#">CONTACT</a>
+            </li>
+          
+        </div>
+      </div>
+    </nav>
+  
+  
+  
+  

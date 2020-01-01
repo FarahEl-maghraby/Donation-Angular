@@ -1,0 +1,17 @@
+<section class="container top" data-aos="fade-up"
+data-aos-duration="2000">
+    <div class="text-center  ">
+    <h1 class="font-weight-bold">OUR MISSION</h1>
+    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book</h6>
+    </div>
+    <div class="row mt-5">
+        <div class="card mr-auto" style="width: 16rem;"  *ngFor='let data of data'>
+            <div class="card-body text-center">
+                <h3>{{data.title}}</h3>
+                <i class="{{data.icon}}"></i>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+</section>

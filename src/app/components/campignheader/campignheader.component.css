@@ -1,0 +1,28 @@
+header{
+    height: 500px;
+    background-size:cover;
+    position: relative;
+    background-image: url(../../../assets/h3.jpg);
+   
+    
+}
+
+#div-opacity , #div-text{
+    position: absolute; 
+}
+
+#div-opacity{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: black;
+   
+}
+
+#div-text{
+    color: white;
+    margin-top: 20%;
+    right: 50;
+}

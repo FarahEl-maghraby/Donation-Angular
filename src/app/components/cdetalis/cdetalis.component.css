@@ -1,0 +1,23 @@
+.top{
+    margin-top: 10%;
+}
+
+hr{
+    border-top: 3px solid #4d99f6;
+}
+
+i,h1{
+    color:#ff823a
+}
+
+a{
+    color:black
+}
+
+.if{
+    color: rgb(8, 58, 196);
+}
+
+.it{
+    color: rgb(236, 6, 198);
+}

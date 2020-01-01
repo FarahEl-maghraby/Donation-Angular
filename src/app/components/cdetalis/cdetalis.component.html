@@ -1,0 +1,33 @@
+<section class="container top">
+    <h1>Campaign Detalis</h1>
+   <hr class="col-1 ml-0">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <i class="fas fa-map-marked"></i> <span class="text-muted"> {{data[0].location}}</span>
+            <br>
+            <i class="fas fa-clock"></i> <span class="text-muted"> {{data[0].start}}</span>
+            <br>
+            <i class="fas fa-clock"></i> <span class="text-muted"> {{data[0].end}}</span>
+            
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                 of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+        <div class="row mb-3 ml-1">
+          <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f mr-5 if"></i>  </a> 
+          <a href="https://twitter.com/"> <i class="fab fa-twitter mr-5 text-primary"></i> </a>
+           <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram mr-5 it"></i></a>
+           <a href="https://www.youtube.com/"> <i class="fab fa-youtube mr-5 text-danger"></i> </a>
+        </div>
+</div>
+
+        <div class="col-md-5 col-sm-12 offset-1 ">
+            <img src="{{data[0].img}}" style="max-width: 100%;">
+        </div>
+    </div>
+
+    <div class="fb-comments" 
+    data-href="http://localhost:4200/campign/1" 
+    data-width="100%" 
+    data-numposts="5">
+</div>
+</section>

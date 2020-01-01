@@ -1,0 +1,24 @@
+.top{
+    margin-top: 10%;
+}
+
+.btn{
+    background: linear-gradient(to right, #ff9a3c 0%, #fdb065 51%, #ff9a3c 100%);
+}
+
+ .card-body:hover i, .btn:hover{
+color:rgb(71, 171, 211)
+}
+
+.card-body:hover h3 ,h1,h5,i{
+    color:#ff8624
+}
+
+.card{
+    border:none;
+    box-shadow: 5px 5px 5px 5px rgb(238, 242, 243);   
+}
+
+.card:hover{
+    top:-5px;
+}
